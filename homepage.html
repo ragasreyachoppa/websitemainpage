@@ -1,0 +1,111 @@
+<html>
+<head>
+	<meta name="viewport" content ="with=device=width, initial-scale=1.0">
+	<title> College Website </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel ="preconnect" href ="https://fonts.gstatic.com">
+<link href ="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300,400,600,700&display-swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="entrance.webp"></a>
+		<div class="nav-links" id="navl links">
+			<ul>
+				<li><a href=" ">HOME</a></li>
+				<li><a href=" ">ABOUT</a></li>
+				<li><a href=" ">COURSE</a></li>
+				<li><a href=" ">BLOG</a></li>
+				<li><a href=" ">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+
+<div class ="text-box">
+	<h1>NBKR INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+	<h3>The best College for your Future</h3>
+	<a href="" class="hero-btn">visit us to know more</a>
+</div>
+</section>
+
+<!-----Course------->
+<section class="course">
+	<h3 style="background-color:lightcoral;"><b>Courses We Offer</b></h3>
+	<h4>These are the Courses we offer </h4>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Graduation</h3>
+			<p>We offer Graduation Courses</p>
+		</div>
+	<div class="course-col">
+		<h3>Post Graduation</h3>
+		<p>we offer Post Graduation Courses</p>
+	</div>
+	<div class="course-col">
+		<h3>Science & Arts</h3>
+		<p>we also offer Science & Arts Courses</p>
+	</div>
+
+
+</section>
+<!-----campus----->
+<section class="blocks">
+	<h2 style="background-color:lightcoral;"><b>our Campus Blocks</b></h2>
+	<h3>We have very separate Blocks for each Department</h3>
+
+	<div class="blocks-col">
+		<img src="cse.jpeg">
+		<div class="layer">
+			<h3>CSE BLOCK</h3>
+	</div>
+	<div class="blocks-col">
+		<img src="eee.jpeg">
+		<div class="layer">
+			<h3>EEE BLOCK</h3>
+	</div>
+	<div class="blocks-col">
+		<img src="mech.jpg">
+		<div class="layer">
+			<h3>MECHANICAL BLOCK</h3>
+	</div>
+	
+</section>
+<!----facilities--->
+<section class="facilities">
+	<h2 style="background-color:lightcoral;"><b>Our Facilities</b></h2>
+	<h3>We have so many Facilities for our Students</h3>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="library.jpeg">
+			<h3 style="color: darkgoldenrod;"><center>Library</center></h3>
+			<h4><center>We have Library which have Thousands of Books</center></h4>
+		</div>
+		<div class="facilities-col">
+			<img src="playground.jpeg">
+			<h3 style="color:darkgoldenrod;"><center>Play ground</center></h3>
+			<h4><center>We have very wide Playground</center></h4>
+		</div>
+		<div class="facilities-col">
+			<img src="canteen.jpeg">
+			<h3 style="color:darkgoldenrod;"><center>Canteen</center></h3>
+			<h4><center>we have Canteen where we provides Tasty and Healthy food</center></h4>
+		</div>
+	</div>
+</section>
+
+
+<script>
+	var navlinks=document.getElementById("navlinks");
+
+	function showMenu(){
+		navlinks.sytle.right="0";
+	}
+	function hideMenu(){
+		navlinks.style.right="-200px";
+	}
+</script>
